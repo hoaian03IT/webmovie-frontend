@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import React, { ChangeEvent, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { MdSearch, MdMenu, MdLocalMovies, MdApartment, MdOutlineBookmark, MdAddCircle } from "react-icons/md";
 import { FaUserCircle } from "react-icons/fa";
 import { HiOutlineChevronUpDown } from "react-icons/hi2";

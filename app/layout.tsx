@@ -1,6 +1,6 @@
 import Header from "@/components/ui/header";
 import "./globals.css";
-import { inter } from "./ui/fonts";
+import { inter } from "./fonts";
 import { NextUIProvider } from "@nextui-org/react";
 
 export default function RootLayout({
