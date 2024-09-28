@@ -1,4 +1,3 @@
-import Header from "@/components/ui/header";
 import "./globals.css";
 import { inter } from "./fonts";
 import { NextUIProvider } from "@nextui-org/react";
@@ -10,11 +9,8 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${inter.className} antialiased`}>
-                <NextUIProvider>
-                    <Header />
-                    {children}
-                </NextUIProvider>
+            <body className={`${inter.className} antialiased dark text-foreground bg-background`}>
+                <NextUIProvider>{children}</NextUIProvider>
             </body>
         </html>
     );
